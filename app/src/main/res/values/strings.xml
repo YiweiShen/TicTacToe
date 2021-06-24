@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="main_title">Tic Tac Toe</string>
+    <string name="main_instruction">Input password to enter the game page. Hint: 1234</string>
+    <string name="main_btn_confirm">Confirm</string>
+    <string name="button_play_again">Play Again</string>
+</resources>
