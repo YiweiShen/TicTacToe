@@ -11,6 +11,7 @@ A simple Android App for Tic Tac Toe.
 - Used onCreate() to reset the variables
 - Used Toast to show warning messages
 - Used two dimensional array String[][] to store the user's moves
+- Add tap behavior (three taps) after game is over to reset the game
 
 # TODO
 - Improve the algorithm for checking if anyone wins, do some research on other's work of Tic Tac Toe.
@@ -18,3 +19,4 @@ A simple Android App for Tic Tac Toe.
 - Add thrid page for demostrating the result
 - Add login details
 - Consider to use database for logging the results.
+- Deal with the warnings in Problems tab which is ignored for now
