@@ -19,6 +19,7 @@ public class GameActivity extends AppCompatActivity {
     int x, y, counter;
     boolean gameIsEnd;
     Button b00, b01, b02, b10, b11, b12, b20, b21, b22;
+    int tap_num = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +67,9 @@ public class GameActivity extends AppCompatActivity {
         move = "O";
         counter = 0;
         gameIsEnd = false;
+        tap_num = 3;
+        Toast.makeText(getApplicationContext(), "DONE. Game reset.", Toast.LENGTH_SHORT).show();
+
     }
 
     public void btn_clicked(View view) {
@@ -174,8 +178,12 @@ public class GameActivity extends AppCompatActivity {
             } else {
                 Toast.makeText(getApplicationContext(), "already taken", Toast.LENGTH_SHORT).show();
             }
+        } else if (tap_num > 0){
+            Toast.makeText(getApplicationContext(), "GAME ENDED. Tap " + tap_num-- + " more time(s) to reset the game.", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(getApplicationContext(), "GAME ENDED", Toast.LENGTH_SHORT).show();
+            View button_play_again = (View) findViewById(R.id.button_play_again);
+            // after three taps on the board, simulate clicking on the play again button.
+            click_btn_play_again(button_play_again);
         }
 
     }
