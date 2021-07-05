@@ -8,9 +8,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.sql.Array;
-import java.util.ArrayList;
-
 public class GameActivity extends AppCompatActivity {
 
     TextView result_text;
