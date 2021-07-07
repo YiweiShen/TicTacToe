@@ -20,3 +20,4 @@ A simple Android App for Tic Tac Toe.
 - Add login details
 - Consider to use database for logging the results.
 - Deal with the warnings in Problems tab which is ignored for now
+- Use images for crosses and noughts instead of writing text on buttons :)
