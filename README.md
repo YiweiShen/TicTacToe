@@ -1,6 +1,16 @@
 # TicTacToe
 A simple Android App for Tic Tac Toe.
 
+## Screenshots
+
+- Login
+
+![](https://github.com/YiWeiShen/TicTacToe/blob/8d2cad558fd8790d32acf030a1501a6d82b2ae6d/screenshots/screenshot_login.png)
+
+- Play the game
+
+![](https://github.com/YiWeiShen/TicTacToe/blob/8d2cad558fd8790d32acf030a1501a6d82b2ae6d/screenshots/screenshot_game.png)
+
 # Used Android API and key points
 - Updated mipmap to change app icon
 - Used values/strings to store used strings
